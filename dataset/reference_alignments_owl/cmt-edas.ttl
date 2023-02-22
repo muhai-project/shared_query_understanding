@@ -1,0 +1,67 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#Author> a owl:Class ;
+    owl:equivalentClass <http://edas#Author> .
+
+<http://cmt#Conference> a owl:Class ;
+    owl:equivalentClass <http://edas#Conference> .
+
+<http://cmt#ConferenceChair> a owl:Class ;
+    owl:equivalentClass <http://edas#ConferenceChair> .
+
+<http://cmt#Document> a owl:Class ;
+    owl:equivalentClass <http://edas#Document> .
+
+<http://cmt#Paper> a owl:Class ;
+    owl:equivalentClass <http://edas#Paper> .
+
+<http://cmt#Person> a owl:Class ;
+    owl:equivalentClass <http://edas#Person> .
+
+<http://cmt#Review> a owl:Class ;
+    owl:equivalentClass <http://edas#Review> .
+
+<http://cmt#Reviewer> a owl:Class ;
+    owl:equivalentClass <http://edas#Reviewer> .
+
+<http://cmt#assignedTo> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://edas#isReviewedBy> .
+
+<http://cmt#hasAuthor> a owl:FunctionalProperty ;
+    owl:equivalentProperty <http://edas#isWrittenBy> .
+
+<http://cmt#hasBeenAssigned> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://edas#isReviewing> .
+
+<http://cmt#hasConferenceMember> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://edas#hasMember> .
+
+<http://cmt#memberOfConference> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://edas#isMemberOf> .
+
+<http://edas#Author> a owl:Class .
+
+<http://edas#Conference> a owl:Class .
+
+<http://edas#ConferenceChair> a owl:Class .
+
+<http://edas#Document> a owl:Class .
+
+<http://edas#Paper> a owl:Class .
+
+<http://edas#Person> a owl:Class .
+
+<http://edas#Review> a owl:Class .
+
+<http://edas#Reviewer> a owl:Class .
+
+<http://edas#hasMember> a owl:ObjectProperty .
+
+<http://edas#isMemberOf> a owl:ObjectProperty .
+
+<http://edas#isReviewedBy> a owl:ObjectProperty .
+
+<http://edas#isReviewing> a owl:ObjectProperty .
+
+<http://edas#isWrittenBy> a owl:FunctionalProperty .
+

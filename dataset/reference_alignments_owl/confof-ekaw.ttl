@@ -1,0 +1,100 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://confOf#Author> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper_Author> .
+
+<http://confOf#Banquet> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference_Banquet> .
+
+<http://confOf#Chair_PC> a owl:Class ;
+    owl:equivalentClass <http://ekaw#PC_Chair> .
+
+<http://confOf#Conference> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference> .
+
+<http://confOf#Contribution> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper> .
+
+<http://confOf#Event> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Event> .
+
+<http://confOf#Member_PC> a owl:Class ;
+    owl:equivalentClass <http://ekaw#PC_Member> .
+
+<http://confOf#Organization> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Organisation> .
+
+<http://confOf#Participant> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference_Participant> .
+
+<http://confOf#Person> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Person> .
+
+<http://confOf#Poster> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Poster_Paper> .
+
+<http://confOf#Scholar> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Student> .
+
+<http://confOf#Social_event> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Social_Event> .
+
+<http://confOf#Student> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Student> .
+
+<http://confOf#Topic> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Research_Topic> .
+
+<http://confOf#Trip> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference_Trip> .
+
+<http://confOf#Tutorial> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Tutorial> .
+
+<http://confOf#University> a owl:Class ;
+    owl:equivalentClass <http://ekaw#University> .
+
+<http://confOf#Working_event> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Scientific_Event> .
+
+<http://confOf#Workshop> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Workshop> .
+
+<http://ekaw#Conference> a owl:Class .
+
+<http://ekaw#Conference_Banquet> a owl:Class .
+
+<http://ekaw#Conference_Participant> a owl:Class .
+
+<http://ekaw#Conference_Trip> a owl:Class .
+
+<http://ekaw#Event> a owl:Class .
+
+<http://ekaw#Organisation> a owl:Class .
+
+<http://ekaw#PC_Chair> a owl:Class .
+
+<http://ekaw#PC_Member> a owl:Class .
+
+<http://ekaw#Paper> a owl:Class .
+
+<http://ekaw#Paper_Author> a owl:Class .
+
+<http://ekaw#Person> a owl:Class .
+
+<http://ekaw#Poster_Paper> a owl:Class .
+
+<http://ekaw#Research_Topic> a owl:Class .
+
+<http://ekaw#Scientific_Event> a owl:Class .
+
+<http://ekaw#Social_Event> a owl:Class .
+
+<http://ekaw#Tutorial> a owl:Class .
+
+<http://ekaw#University> a owl:Class .
+
+<http://ekaw#Workshop> a owl:Class .
+
+<http://ekaw#Student> a owl:Class .
+

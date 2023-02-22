@@ -304,6 +304,8 @@ class Agent:
 			# remove this example and its score from the pool of examples
 			del self.example_pool[example_index]
 			del self.example_probabilities[example_index]
+			# "memorize" the unclear example
+			self.unclear_episodes.add(example)
 
 			# re-normalising probabilities
 			weighted_sum = sum(self.example_probabilities)

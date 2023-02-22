@@ -1,0 +1,87 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://conference#Accepted_contribution> a owl:Class ;
+    owl:equivalentClass <http://edas#AcceptedPaper> .
+
+<http://conference#Conference_document> a owl:Class ;
+    owl:equivalentClass <http://edas#Document> .
+
+<http://conference#Conference_part> a owl:Class ;
+    owl:equivalentClass <http://edas#ConferenceEvent> .
+
+<http://conference#Conference_participant> a owl:Class ;
+    owl:equivalentClass <http://edas#Attendee> .
+
+<http://conference#Conference_volume> a owl:Class ;
+    owl:equivalentClass <http://edas#Conference> .
+
+<http://conference#Organization> a owl:Class ;
+    owl:equivalentClass <http://edas#Organization> .
+
+<http://conference#Paper> a owl:Class ;
+    owl:equivalentClass <http://edas#Paper> .
+
+<http://conference#Person> a owl:Class ;
+    owl:equivalentClass <http://edas#Person> .
+
+<http://conference#Regular_author> a owl:Class ;
+    owl:equivalentClass <http://edas#Author> .
+
+<http://conference#Rejected_contribution> a owl:Class ;
+    owl:equivalentClass <http://edas#RejectedPaper> .
+
+<http://conference#Review> a owl:Class ;
+    owl:equivalentClass <http://edas#Review> .
+
+<http://conference#Reviewer> a owl:Class ;
+    owl:equivalentClass <http://edas#Reviewer> .
+
+<http://conference#Topic> a owl:Class ;
+    owl:equivalentClass <http://edas#Topic> .
+
+<http://conference#Workshop> a owl:Class ;
+    owl:equivalentClass <http://edas#Workshop> .
+
+<http://conference#has_a_review_expertise> a owl:InverseFunctionalProperty ;
+    owl:equivalentProperty <http://edas#hasRating> .
+
+<http://conference#has_the_first_name> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://edas#hasFirstName> .
+
+<http://conference#has_the_last_name> a owl:FunctionalProperty ;
+    owl:equivalentProperty <http://edas#hasLastName> .
+
+<http://edas#AcceptedPaper> a owl:Class .
+
+<http://edas#Attendee> a owl:Class .
+
+<http://edas#Author> a owl:Class .
+
+<http://edas#Conference> a owl:Class .
+
+<http://edas#ConferenceEvent> a owl:Class .
+
+<http://edas#Document> a owl:Class .
+
+<http://edas#Organization> a owl:Class .
+
+<http://edas#Paper> a owl:Class .
+
+<http://edas#Person> a owl:Class .
+
+<http://edas#RejectedPaper> a owl:Class .
+
+<http://edas#Review> a owl:Class .
+
+<http://edas#Reviewer> a owl:Class .
+
+<http://edas#Topic> a owl:Class .
+
+<http://edas#Workshop> a owl:Class .
+
+<http://edas#hasFirstName> a owl:DatatypeProperty .
+
+<http://edas#hasLastName> a owl:FunctionalProperty .
+
+<http://edas#hasRating> a owl:InverseFunctionalProperty .
+

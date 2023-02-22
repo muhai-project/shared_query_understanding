@@ -1,0 +1,37 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://confOf#Author> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Author> .
+
+<http://confOf#Chair_PC> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Program_Chair> .
+
+<http://confOf#Conference> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Conference> .
+
+<http://confOf#Member_PC> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Program_Committee_member> .
+
+<http://confOf#Paper> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Paper> .
+
+<http://confOf#Person> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Person> .
+
+<http://confOf#hasEmail> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://sigkdd#E-mail> .
+
+<http://sigkdd#Author> a owl:Class .
+
+<http://sigkdd#Conference> a owl:Class .
+
+<http://sigkdd#E-mail> a owl:DatatypeProperty .
+
+<http://sigkdd#Paper> a owl:Class .
+
+<http://sigkdd#Person> a owl:Class .
+
+<http://sigkdd#Program_Chair> a owl:Class .
+
+<http://sigkdd#Program_Committee_member> a owl:Class .
+

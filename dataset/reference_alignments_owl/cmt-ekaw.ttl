@@ -1,0 +1,57 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#Author> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper_Author> .
+
+<http://cmt#Conference> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference> .
+
+<http://cmt#ConferenceMember> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference_Participant> .
+
+<http://cmt#Document> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Document> .
+
+<http://cmt#Paper> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper> .
+
+<http://cmt#PaperFullVersion> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Regular_Paper> .
+
+<http://cmt#Person> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Person> .
+
+<http://cmt#Review> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Review> .
+
+<http://cmt#assignedTo> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#hasReviewer> .
+
+<http://cmt#hasBeenAssigned> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#reviewerOfPaper> .
+
+<http://cmt#writtenBy> a owl:FunctionalProperty ;
+    owl:equivalentProperty <http://ekaw#reviewWrittenBy> .
+
+<http://ekaw#Conference> a owl:Class .
+
+<http://ekaw#Conference_Participant> a owl:Class .
+
+<http://ekaw#Document> a owl:Class .
+
+<http://ekaw#Paper> a owl:Class .
+
+<http://ekaw#Paper_Author> a owl:Class .
+
+<http://ekaw#Person> a owl:Class .
+
+<http://ekaw#Regular_Paper> a owl:Class .
+
+<http://ekaw#Review> a owl:Class .
+
+<http://ekaw#hasReviewer> a owl:ObjectProperty .
+
+<http://ekaw#reviewWrittenBy> a owl:FunctionalProperty .
+
+<http://ekaw#reviewerOfPaper> a owl:ObjectProperty .
+

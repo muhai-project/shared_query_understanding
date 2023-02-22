@@ -1,0 +1,47 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://confOf#Administrative_event> a owl:Class ;
+    owl:equivalentClass <http://iasted#Activity_before_conference> .
+
+<http://confOf#Author> a owl:Class ;
+    owl:equivalentClass <http://iasted#Author> .
+
+<http://confOf#Banquet> a owl:Class ;
+    owl:equivalentClass <http://iasted#Dinner_banquet> .
+
+<http://confOf#City> a owl:Class ;
+    owl:equivalentClass <http://iasted#City> .
+
+<http://confOf#Country> a owl:Class ;
+    owl:equivalentClass <http://iasted#State> .
+
+<http://confOf#Event> a owl:Class ;
+    owl:equivalentClass <http://iasted#Activity> .
+
+<http://confOf#Person> a owl:Class ;
+    owl:equivalentClass <http://iasted#Person> .
+
+<http://confOf#Reception> a owl:Class ;
+    owl:equivalentClass <http://iasted#Coctail_reception> .
+
+<http://confOf#Tutorial> a owl:Class ;
+    owl:equivalentClass <http://iasted#Tutorial> .
+
+<http://iasted#Activity> a owl:Class .
+
+<http://iasted#Activity_before_conference> a owl:Class .
+
+<http://iasted#Author> a owl:Class .
+
+<http://iasted#City> a owl:Class .
+
+<http://iasted#Coctail_reception> a owl:Class .
+
+<http://iasted#Dinner_banquet> a owl:Class .
+
+<http://iasted#Person> a owl:Class .
+
+<http://iasted#State> a owl:Class .
+
+<http://iasted#Tutorial> a owl:Class .
+

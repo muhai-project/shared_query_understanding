@@ -1,0 +1,75 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#Author> a owl:Class ;
+    owl:equivalentClass <http://conference#Regular_author> .
+
+<http://cmt#Chairman> a owl:Class ;
+    owl:equivalentClass <http://conference#Chair> .
+
+<http://cmt#Co-author> a owl:Class ;
+    owl:equivalentClass <http://conference#Contribution_co-author> .
+
+<http://cmt#Conference> a owl:Class ;
+    owl:equivalentClass <http://conference#Conference>,
+        <http://conference#Conference_volume> .
+
+<http://cmt#Document> a owl:Class ;
+    owl:equivalentClass <http://conference#Conference_document> .
+
+<http://cmt#PaperAbstract> a owl:Class ;
+    owl:equivalentClass <http://conference#Abstract> .
+
+<http://cmt#Person> a owl:Class ;
+    owl:equivalentClass <http://conference#Person> .
+
+<http://cmt#Preference> a owl:Class ;
+    owl:equivalentClass <http://conference#Review_preference> .
+
+<http://cmt#ProgramCommittee> a owl:Class ;
+    owl:equivalentClass <http://conference#Program_committee> .
+
+<http://cmt#Review> a owl:Class ;
+    owl:equivalentClass <http://conference#Review> .
+
+<http://cmt#SubjectArea> a owl:Class ;
+    owl:equivalentClass <http://conference#Topic> .
+
+<http://cmt#assignExternalReviewer> a owl:InverseFunctionalProperty ;
+    owl:equivalentProperty <http://conference#invites_co-reviewers> .
+
+<http://cmt#assignedByReviewer> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://conference#invited_by> .
+
+<http://cmt#email> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://conference#has_an_email> .
+
+<http://conference#Abstract> a owl:Class .
+
+<http://conference#Chair> a owl:Class .
+
+<http://conference#Conference> a owl:Class .
+
+<http://conference#Conference_document> a owl:Class .
+
+<http://conference#Conference_volume> a owl:Class .
+
+<http://conference#Contribution_co-author> a owl:Class .
+
+<http://conference#Person> a owl:Class .
+
+<http://conference#Program_committee> a owl:Class .
+
+<http://conference#Regular_author> a owl:Class .
+
+<http://conference#Review> a owl:Class .
+
+<http://conference#Review_preference> a owl:Class .
+
+<http://conference#Topic> a owl:Class .
+
+<http://conference#has_an_email> a owl:DatatypeProperty .
+
+<http://conference#invited_by> a owl:ObjectProperty .
+
+<http://conference#invites_co-reviewers> a owl:InverseFunctionalProperty .
+

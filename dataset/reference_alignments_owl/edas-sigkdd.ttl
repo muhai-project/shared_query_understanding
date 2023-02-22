@@ -1,0 +1,77 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://edas#AccommodationPlace> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Hotel> .
+
+<http://edas#Attendee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Listener> .
+
+<http://edas#Author> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Author> .
+
+<http://edas#Conference> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Conference> .
+
+<http://edas#ConferenceChair> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#General_Chair> .
+
+<http://edas#ConferenceVenuePlace> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Conference_hall> .
+
+<http://edas#Document> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Document> .
+
+<http://edas#Paper> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Paper> .
+
+<http://edas#Person> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Person> .
+
+<http://edas#Place> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Place> .
+
+<http://edas#Review> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Review> .
+
+<http://edas#endDate> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://sigkdd#End_of_conference> .
+
+<http://edas#hasCostAmount> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://sigkdd#Price> .
+
+<http://edas#hasName> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://sigkdd#Name_of_conference> .
+
+<http://edas#startDate> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://sigkdd#Start_of_conference> .
+
+<http://sigkdd#Author> a owl:Class .
+
+<http://sigkdd#Conference> a owl:Class .
+
+<http://sigkdd#Conference_hall> a owl:Class .
+
+<http://sigkdd#Document> a owl:Class .
+
+<http://sigkdd#End_of_conference> a owl:DatatypeProperty .
+
+<http://sigkdd#General_Chair> a owl:Class .
+
+<http://sigkdd#Hotel> a owl:Class .
+
+<http://sigkdd#Listener> a owl:Class .
+
+<http://sigkdd#Name_of_conference> a owl:DatatypeProperty .
+
+<http://sigkdd#Paper> a owl:Class .
+
+<http://sigkdd#Person> a owl:Class .
+
+<http://sigkdd#Place> a owl:Class .
+
+<http://sigkdd#Price> a owl:DatatypeProperty .
+
+<http://sigkdd#Review> a owl:Class .
+
+<http://sigkdd#Start_of_conference> a owl:DatatypeProperty .
+

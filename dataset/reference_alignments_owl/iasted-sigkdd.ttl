@@ -1,0 +1,77 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://iasted#Author> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Author> .
+
+<http://iasted#Conference_hall> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Conference_hall> .
+
+<http://iasted#Deadline> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Deadline> .
+
+<http://iasted#Deadline_for_notification_of_acceptance> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Deadline_Author_notification> .
+
+<http://iasted#Fee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Fee> .
+
+<http://iasted#Listener> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Listener> .
+
+<http://iasted#Main_office> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Main_office> .
+
+<http://iasted#Nonmember_registration_fee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Registration_Non-Member> .
+
+<http://iasted#Person> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Person> .
+
+<http://iasted#Place> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Place> .
+
+<http://iasted#Registration_fee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Registration_fee> .
+
+<http://iasted#Review> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Review> .
+
+<http://iasted#Speaker> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Speaker> .
+
+<http://iasted#Sponsor> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Sponzor> .
+
+<http://iasted#Student_registration_fee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Registration_Student> .
+
+<http://sigkdd#Author> a owl:Class .
+
+<http://sigkdd#Conference_hall> a owl:Class .
+
+<http://sigkdd#Deadline> a owl:Class .
+
+<http://sigkdd#Deadline_Author_notification> a owl:Class .
+
+<http://sigkdd#Fee> a owl:Class .
+
+<http://sigkdd#Listener> a owl:Class .
+
+<http://sigkdd#Main_office> a owl:Class .
+
+<http://sigkdd#Person> a owl:Class .
+
+<http://sigkdd#Place> a owl:Class .
+
+<http://sigkdd#Registration_Non-Member> a owl:Class .
+
+<http://sigkdd#Registration_Student> a owl:Class .
+
+<http://sigkdd#Registration_fee> a owl:Class .
+
+<http://sigkdd#Review> a owl:Class .
+
+<http://sigkdd#Speaker> a owl:Class .
+
+<http://sigkdd#Sponzor> a owl:Class .
+

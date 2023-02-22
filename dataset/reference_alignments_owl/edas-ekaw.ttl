@@ -1,0 +1,117 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://edas#AcademiaOrganization> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Academic_Institution> .
+
+<http://edas#AcademicEvent> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Scientific_Event> .
+
+<http://edas#AcceptedPaper> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Accepted_Paper> .
+
+<http://edas#Attendee> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference_Participant> .
+
+<http://edas#Author> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper_Author> .
+
+<http://edas#ConferenceDinner> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference_Banquet> .
+
+<http://edas#ConferenceEvent> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Event> .
+
+<http://edas#Document> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Document> .
+
+<http://edas#Organization> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Organisation> .
+
+<http://edas#Paper> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper> .
+
+<http://edas#Person> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Person> .
+
+<http://edas#Place> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Location> .
+
+<http://edas#Programme> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Programme_Brochure> .
+
+<http://edas#RejectedPaper> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Rejected_Paper> .
+
+<http://edas#Review> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Review> .
+
+<http://edas#SessionChair> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Session_Chair> .
+
+<http://edas#SocialEvent> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Social_Event> .
+
+<http://edas#Topic> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Research_Topic> .
+
+<http://edas#Workshop> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Workshop> .
+
+<http://edas#hasLocation> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#heldIn> .
+
+<http://edas#isLocationOf> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#locationOf> .
+
+<http://edas#isReviewedBy> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#hasReviewer> .
+
+<http://edas#isReviewing> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#reviewerOfPaper> .
+
+<http://ekaw#Academic_Institution> a owl:Class .
+
+<http://ekaw#Accepted_Paper> a owl:Class .
+
+<http://ekaw#Conference_Banquet> a owl:Class .
+
+<http://ekaw#Conference_Participant> a owl:Class .
+
+<http://ekaw#Document> a owl:Class .
+
+<http://ekaw#Event> a owl:Class .
+
+<http://ekaw#Location> a owl:Class .
+
+<http://ekaw#Organisation> a owl:Class .
+
+<http://ekaw#Paper> a owl:Class .
+
+<http://ekaw#Paper_Author> a owl:Class .
+
+<http://ekaw#Person> a owl:Class .
+
+<http://ekaw#Programme_Brochure> a owl:Class .
+
+<http://ekaw#Rejected_Paper> a owl:Class .
+
+<http://ekaw#Research_Topic> a owl:Class .
+
+<http://ekaw#Review> a owl:Class .
+
+<http://ekaw#Scientific_Event> a owl:Class .
+
+<http://ekaw#Session_Chair> a owl:Class .
+
+<http://ekaw#Social_Event> a owl:Class .
+
+<http://ekaw#Workshop> a owl:Class .
+
+<http://ekaw#hasReviewer> a owl:ObjectProperty .
+
+<http://ekaw#heldIn> a owl:ObjectProperty .
+
+<http://ekaw#locationOf> a owl:ObjectProperty .
+
+<http://ekaw#reviewerOfPaper> a owl:ObjectProperty .
+

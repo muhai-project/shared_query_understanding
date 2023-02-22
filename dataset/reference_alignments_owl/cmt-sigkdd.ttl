@@ -1,0 +1,62 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#Author> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Author> .
+
+<http://cmt#Conference> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Conference> .
+
+<http://cmt#ConferenceChair> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#General_Chair> .
+
+<http://cmt#Document> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Document> .
+
+<http://cmt#Paper> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Paper> .
+
+<http://cmt#Person> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Person> .
+
+<http://cmt#ProgramCommittee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Program_Committee> .
+
+<http://cmt#ProgramCommitteeChair> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Program_Chair> .
+
+<http://cmt#ProgramCommitteeMember> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Program_Committee_member> .
+
+<http://cmt#Review> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Review> .
+
+<http://cmt#email> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://sigkdd#E-mail> .
+
+<http://cmt#submitPaper> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://sigkdd#submit> .
+
+<http://sigkdd#Author> a owl:Class .
+
+<http://sigkdd#Conference> a owl:Class .
+
+<http://sigkdd#Document> a owl:Class .
+
+<http://sigkdd#E-mail> a owl:DatatypeProperty .
+
+<http://sigkdd#General_Chair> a owl:Class .
+
+<http://sigkdd#Paper> a owl:Class .
+
+<http://sigkdd#Person> a owl:Class .
+
+<http://sigkdd#Program_Chair> a owl:Class .
+
+<http://sigkdd#Program_Committee> a owl:Class .
+
+<http://sigkdd#Program_Committee_member> a owl:Class .
+
+<http://sigkdd#Review> a owl:Class .
+
+<http://sigkdd#submit> a owl:ObjectProperty .
+

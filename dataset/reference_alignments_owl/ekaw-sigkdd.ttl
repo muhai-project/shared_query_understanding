@@ -1,0 +1,57 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://ekaw#Abstract> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Abstract> .
+
+<http://ekaw#Conference> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Conference> .
+
+<http://ekaw#Document> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Document> .
+
+<http://ekaw#Invited_Speaker> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Invited_Speaker> .
+
+<http://ekaw#Location> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Place> .
+
+<http://ekaw#OC_Member> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Organizing_Committee_member> .
+
+<http://ekaw#PC_Chair> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Program_Chair> .
+
+<http://ekaw#Paper> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Paper> .
+
+<http://ekaw#Paper_Author> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Author> .
+
+<http://ekaw#Person> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Person> .
+
+<http://ekaw#Review> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Review> .
+
+<http://sigkdd#Abstract> a owl:Class .
+
+<http://sigkdd#Author> a owl:Class .
+
+<http://sigkdd#Conference> a owl:Class .
+
+<http://sigkdd#Document> a owl:Class .
+
+<http://sigkdd#Invited_Speaker> a owl:Class .
+
+<http://sigkdd#Organizing_Committee_member> a owl:Class .
+
+<http://sigkdd#Paper> a owl:Class .
+
+<http://sigkdd#Person> a owl:Class .
+
+<http://sigkdd#Place> a owl:Class .
+
+<http://sigkdd#Program_Chair> a owl:Class .
+
+<http://sigkdd#Review> a owl:Class .
+

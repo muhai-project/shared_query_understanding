@@ -1,0 +1,52 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://ekaw#Conference_Banquet> a owl:Class ;
+    owl:equivalentClass <http://iasted#Dinner_banquet> .
+
+<http://ekaw#Document> a owl:Class ;
+    owl:equivalentClass <http://iasted#Document> .
+
+<http://ekaw#Event> a owl:Class ;
+    owl:equivalentClass <http://iasted#Activity> .
+
+<http://ekaw#Location> a owl:Class ;
+    owl:equivalentClass <http://iasted#Place> .
+
+<http://ekaw#Paper_Author> a owl:Class ;
+    owl:equivalentClass <http://iasted#Author> .
+
+<http://ekaw#Person> a owl:Class ;
+    owl:equivalentClass <http://iasted#Person> .
+
+<http://ekaw#Review> a owl:Class ;
+    owl:equivalentClass <http://iasted#Review> .
+
+<http://ekaw#Session> a owl:Class ;
+    owl:equivalentClass <http://iasted#Session> .
+
+<http://ekaw#Session_Chair> a owl:Class ;
+    owl:equivalentClass <http://iasted#Session_chair> .
+
+<http://ekaw#Tutorial> a owl:Class ;
+    owl:equivalentClass <http://iasted#Tutorial> .
+
+<http://iasted#Activity> a owl:Class .
+
+<http://iasted#Author> a owl:Class .
+
+<http://iasted#Dinner_banquet> a owl:Class .
+
+<http://iasted#Document> a owl:Class .
+
+<http://iasted#Person> a owl:Class .
+
+<http://iasted#Place> a owl:Class .
+
+<http://iasted#Review> a owl:Class .
+
+<http://iasted#Session> a owl:Class .
+
+<http://iasted#Session_chair> a owl:Class .
+
+<http://iasted#Tutorial> a owl:Class .
+

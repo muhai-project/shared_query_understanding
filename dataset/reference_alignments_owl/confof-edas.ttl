@@ -1,0 +1,97 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://confOf#Author> a owl:Class ;
+    owl:equivalentClass <http://edas#Author> .
+
+<http://confOf#Country> a owl:Class ;
+    owl:equivalentClass <http://edas#Country> .
+
+<http://confOf#Event> a owl:Class ;
+    owl:equivalentClass <http://edas#ConferenceEvent> .
+
+<http://confOf#Member_PC> a owl:Class ;
+    owl:equivalentClass <http://edas#TPCMember> .
+
+<http://confOf#Organization> a owl:Class ;
+    owl:equivalentClass <http://edas#Organization> .
+
+<http://confOf#Paper> a owl:Class ;
+    owl:equivalentClass <http://edas#Paper> .
+
+<http://confOf#Participant> a owl:Class ;
+    owl:equivalentClass <http://edas#Attendee> .
+
+<http://confOf#Person> a owl:Class ;
+    owl:equivalentClass <http://edas#Person> .
+
+<http://confOf#Reception> a owl:Class ;
+    owl:equivalentClass <http://edas#Reception> .
+
+<http://confOf#Social_event> a owl:Class ;
+    owl:equivalentClass <http://edas#SocialEvent> .
+
+<http://confOf#Topic> a owl:Class ;
+    owl:equivalentClass <http://edas#Topic> .
+
+<http://confOf#Trip> a owl:Class ;
+    owl:equivalentClass <http://edas#Excursion> .
+
+<http://confOf#Working_event> a owl:Class ;
+    owl:equivalentClass <http://edas#AcademicEvent> .
+
+<http://confOf#Workshop> a owl:Class ;
+    owl:equivalentClass <http://edas#Workshop> .
+
+<http://confOf#hasFirstName> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://edas#hasFirstName> .
+
+<http://confOf#hasSurname> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://edas#hasLastName> .
+
+<http://confOf#reviewes> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://edas#isReviewing> .
+
+<http://confOf#writes> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://edas#hasRelatedPaper> .
+
+<http://confOf#writtenBy> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://edas#isWrittenBy> .
+
+<http://edas#AcademicEvent> a owl:Class .
+
+<http://edas#Attendee> a owl:Class .
+
+<http://edas#Author> a owl:Class .
+
+<http://edas#ConferenceEvent> a owl:Class .
+
+<http://edas#Country> a owl:Class .
+
+<http://edas#Excursion> a owl:Class .
+
+<http://edas#Organization> a owl:Class .
+
+<http://edas#Paper> a owl:Class .
+
+<http://edas#Person> a owl:Class .
+
+<http://edas#Reception> a owl:Class .
+
+<http://edas#SocialEvent> a owl:Class .
+
+<http://edas#TPCMember> a owl:Class .
+
+<http://edas#Topic> a owl:Class .
+
+<http://edas#Workshop> a owl:Class .
+
+<http://edas#hasFirstName> a owl:DatatypeProperty .
+
+<http://edas#hasLastName> a owl:DatatypeProperty .
+
+<http://edas#hasRelatedPaper> a owl:ObjectProperty .
+
+<http://edas#isReviewing> a owl:ObjectProperty .
+
+<http://edas#isWrittenBy> a owl:ObjectProperty .
+

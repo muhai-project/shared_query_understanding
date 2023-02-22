@@ -1,0 +1,77 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://conference#Abstract> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Abstract> .
+
+<http://conference#Committee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Committee> .
+
+<http://conference#Conference_document> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Document> .
+
+<http://conference#Conference_fees> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Fee> .
+
+<http://conference#Conference_volume> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Conference> .
+
+<http://conference#Invited_speaker> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Invited_Speaker> .
+
+<http://conference#Organizing_committee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Organizing_Committee> .
+
+<http://conference#Paper> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Paper> .
+
+<http://conference#Person> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Person> .
+
+<http://conference#Program_committee> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Program_Committee> .
+
+<http://conference#Regular_author> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Author> .
+
+<http://conference#Review> a owl:Class ;
+    owl:equivalentClass <http://sigkdd#Review> .
+
+<http://conference#gives_presentations> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://sigkdd#presentation> .
+
+<http://conference#has_an_email> a owl:DatatypeProperty ;
+    owl:equivalentProperty <http://sigkdd#E-mail> .
+
+<http://conference#is_given_by> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://sigkdd#presentationed_by> .
+
+<http://sigkdd#Abstract> a owl:Class .
+
+<http://sigkdd#Author> a owl:Class .
+
+<http://sigkdd#Committee> a owl:Class .
+
+<http://sigkdd#Conference> a owl:Class .
+
+<http://sigkdd#Document> a owl:Class .
+
+<http://sigkdd#E-mail> a owl:DatatypeProperty .
+
+<http://sigkdd#Fee> a owl:Class .
+
+<http://sigkdd#Invited_Speaker> a owl:Class .
+
+<http://sigkdd#Organizing_Committee> a owl:Class .
+
+<http://sigkdd#Paper> a owl:Class .
+
+<http://sigkdd#Person> a owl:Class .
+
+<http://sigkdd#Program_Committee> a owl:Class .
+
+<http://sigkdd#Review> a owl:Class .
+
+<http://sigkdd#presentation> a owl:ObjectProperty .
+
+<http://sigkdd#presentationed_by> a owl:ObjectProperty .
+

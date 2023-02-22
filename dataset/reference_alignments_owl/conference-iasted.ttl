@@ -1,0 +1,72 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://conference#Active_conference_participant> a owl:Class ;
+    owl:equivalentClass <http://iasted#Speaker> .
+
+<http://conference#Camera_ready_contribution> a owl:Class ;
+    owl:equivalentClass <http://iasted#Final_manuscript> .
+
+<http://conference#Conference_document> a owl:Class ;
+    owl:equivalentClass <http://iasted#Document> .
+
+<http://conference#Conference_fees> a owl:Class ;
+    owl:equivalentClass <http://iasted#Fee> .
+
+<http://conference#Conference_part> a owl:Class ;
+    owl:equivalentClass <http://iasted#Conference_activity> .
+
+<http://conference#Conference_proceedings> a owl:Class ;
+    owl:equivalentClass <http://iasted#Publication> .
+
+<http://conference#Passive_conference_participant> a owl:Class ;
+    owl:equivalentClass <http://iasted#Listener> .
+
+<http://conference#Person> a owl:Class ;
+    owl:equivalentClass <http://iasted#Person> .
+
+<http://conference#Regular_author> a owl:Class ;
+    owl:equivalentClass <http://iasted#Author> .
+
+<http://conference#Review> a owl:Class ;
+    owl:equivalentClass <http://iasted#Review> .
+
+<http://conference#Reviewer> a owl:Class ;
+    owl:equivalentClass <http://iasted#Reviewer> .
+
+<http://conference#Submitted_contribution> a owl:Class ;
+    owl:equivalentClass <http://iasted#Submission> .
+
+<http://conference#Tutorial> a owl:Class ;
+    owl:equivalentClass <http://iasted#Tutorial> .
+
+<http://conference#contributes> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://iasted#write> .
+
+<http://iasted#Author> a owl:Class .
+
+<http://iasted#Conference_activity> a owl:Class .
+
+<http://iasted#Document> a owl:Class .
+
+<http://iasted#Fee> a owl:Class .
+
+<http://iasted#Final_manuscript> a owl:Class .
+
+<http://iasted#Listener> a owl:Class .
+
+<http://iasted#Person> a owl:Class .
+
+<http://iasted#Publication> a owl:Class .
+
+<http://iasted#Review> a owl:Class .
+
+<http://iasted#Reviewer> a owl:Class .
+
+<http://iasted#Speaker> a owl:Class .
+
+<http://iasted#Submission> a owl:Class .
+
+<http://iasted#Tutorial> a owl:Class .
+
+<http://iasted#write> a owl:ObjectProperty .
+

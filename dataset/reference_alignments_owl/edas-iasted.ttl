@@ -1,0 +1,97 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://edas#Attendee> a owl:Class ;
+    owl:equivalentClass <http://iasted#Delegate> .
+
+<http://edas#Author> a owl:Class ;
+    owl:equivalentClass <http://iasted#Author> .
+
+<http://edas#CoffeeBreak> a owl:Class ;
+    owl:equivalentClass <http://iasted#Coffee_break> .
+
+<http://edas#ConferenceDinner> a owl:Class ;
+    owl:equivalentClass <http://iasted#Dinner_banquet> .
+
+<http://edas#ConferenceEvent> a owl:Class ;
+    owl:equivalentClass <http://iasted#Conference_activity> .
+
+<http://edas#ConferenceVenuePlace> a owl:Class ;
+    owl:equivalentClass <http://iasted#Conference_building> .
+
+<http://edas#Country> a owl:Class ;
+    owl:equivalentClass <http://iasted#State> .
+
+<http://edas#DiningPlace> a owl:Class ;
+    owl:equivalentClass <http://iasted#Conference_restaurant> .
+
+<http://edas#Document> a owl:Class ;
+    owl:equivalentClass <http://iasted#Document> .
+
+<http://edas#Paper> a owl:Class ;
+    owl:equivalentClass <http://iasted#Submission> .
+
+<http://edas#Place> a owl:Class ;
+    owl:equivalentClass <http://iasted#Place> .
+
+<http://edas#Reception> a owl:Class ;
+    owl:equivalentClass <http://iasted#Coctail_reception> .
+
+<http://edas#Review> a owl:Class ;
+    owl:equivalentClass <http://iasted#Review> .
+
+<http://edas#Reviewer> a owl:Class ;
+    owl:equivalentClass <http://iasted#Reviewer> .
+
+<http://edas#SessionChair> a owl:Class ;
+    owl:equivalentClass <http://iasted#Session_chair> .
+
+<http://edas#SlideSet> a owl:Class ;
+    owl:equivalentClass <http://iasted#Transparency> .
+
+<http://edas#SocialEvent> a owl:Class ;
+    owl:equivalentClass <http://iasted#Social_program> .
+
+<http://edas#Sponsorship> a owl:Class ;
+    owl:equivalentClass <http://iasted#Sponzorship> .
+
+<http://edas#WelcomeTalk> a owl:Class ;
+    owl:equivalentClass <http://iasted#Welcome_address> .
+
+<http://iasted#Author> a owl:Class .
+
+<http://iasted#Coctail_reception> a owl:Class .
+
+<http://iasted#Coffee_break> a owl:Class .
+
+<http://iasted#Conference_activity> a owl:Class .
+
+<http://iasted#Conference_building> a owl:Class .
+
+<http://iasted#Conference_restaurant> a owl:Class .
+
+<http://iasted#Delegate> a owl:Class .
+
+<http://iasted#Dinner_banquet> a owl:Class .
+
+<http://iasted#Document> a owl:Class .
+
+<http://iasted#Place> a owl:Class .
+
+<http://iasted#Review> a owl:Class .
+
+<http://iasted#Reviewer> a owl:Class .
+
+<http://iasted#Session_chair> a owl:Class .
+
+<http://iasted#Social_program> a owl:Class .
+
+<http://iasted#Sponzorship> a owl:Class .
+
+<http://iasted#State> a owl:Class .
+
+<http://iasted#Submission> a owl:Class .
+
+<http://iasted#Transparency> a owl:Class .
+
+<http://iasted#Welcome_address> a owl:Class .
+
