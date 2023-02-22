@@ -1,0 +1,7 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+
+<http://conference#contributes> a ns1:ObjectProperty ;
+    ns1:equivalentProperty <http://confOf#writes> .
+
+<http://confOf#writes> a ns1:ObjectProperty .
+
