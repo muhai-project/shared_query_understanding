@@ -333,6 +333,9 @@ def run_all_teacher_student_combinations_using_gold_alignments(args):
 	else:
 		os.mkdir(exp_dir)
 
+
+	print("Running experiment. Output will be saved in directory:", exp_dir)
+
 	tensorboard_writer_average_experiment_dir = os.path.join(exp_dir, "average")
 	os.mkdir(tensorboard_writer_average_experiment_dir)
 	experiment_average_tensorboard_writer = SummaryWriter(log_dir=tensorboard_writer_average_experiment_dir)
@@ -364,9 +367,7 @@ def run_all_teacher_student_combinations_using_gold_alignments(args):
 
 	av_performance_stats_dict, std_performance_stats_dict = aggregate_statistics_of_dictionary_of_list_of_values(ontology_pair_performances_dict)
 
-	print("Experiment directory:", exp_dir)
 	performance_summary_str = format_average_query_performance_in_str(av_performance_stats_dict, std_performance_stats_dict, is_single_query=False)
-	print(performance_summary_str)
 
 	average_values_per_step, _ = write_average_query_performance_to_tensorboard(experiment_average_tensorboard_writer, complete_experiment_output_dict_step_wise, args.max_steps, args.eval_every)
 
@@ -376,5 +377,16 @@ def run_all_teacher_student_combinations_using_gold_alignments(args):
 
 	with open(os.path.join(exp_dir,'av_stats_per_step_dict.pickle'), 'wb') as handle:
 		pickle.dump(average_values_per_step, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+	av_precision = av_performance_stats_dict["precision"]
+	av_recall = av_performance_stats_dict["recall"]
+	av_total_steps = av_performance_stats_dict["total_steps"]
+	av_teacher_ep_mem = av_performance_stats_dict["teachers_ep_mem_size"]
+	av_student_ep_mem = av_performance_stats_dict["students_ep_mem_size"]
+	av_student_sem_mem = av_performance_stats_dict["students_sem_mem_size"]
+
+
+	print(f"Task (Query) Performance Metrics:\nPrecision: {av_precision:04.2}, Recall: {av_recall:04.2}")
+	print(f"Efficiency Metrics:\nInteraction time (#Examples): {av_total_steps:04.2}, Teacher Episodic Memory: {av_teacher_ep_mem:04.2}, Student Episodic Memory: {av_student_ep_mem:04.2}, Student Working Memory: {av_student_sem_mem:04.2}")
 
 
