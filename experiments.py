@@ -70,7 +70,7 @@ def teacher_student_one_query_experiment(teacher_agent, student_agent, teacher_p
 		outcome_dict["num_joint_results"] = num_joint_results
 		return outcome_dict, output_dict_step_wise
 	elif not successful_setup:
-		outcome_dict = {"completed": False, "fail_reason": "Teacher failed to find related Concepts."}
+		outcome_dict = {"completed": False, "fail_reason": "Teacher failed to find relevant examples."}
 		outcome_dict["num_gt_results"] = num_gt_results
 		outcome_dict["num_teacher_results"] = num_teacher_results
 		outcome_dict["num_joint_results"] = num_joint_results
