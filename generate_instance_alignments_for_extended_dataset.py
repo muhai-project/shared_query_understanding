@@ -317,13 +317,8 @@ def run_sparql_queries_for_instance_matching_on_ontology_pair(ontology_1, ontolo
 
     return alignments_set
 
-
-def generate_instance_alignments(dataset_dir, data_sub_dir, reference_alignments_sub_dir,
-                                 handcrafted_reference_alignments_sub_dir, out_alignments_sub_dir):
-    data_directory = dataset_dir + "/" + data_sub_dir
-    reference_alignments_dir = dataset_dir + "/" + reference_alignments_sub_dir
-    handcrafted_reference_alignments_dir = dataset_dir + "/" + handcrafted_reference_alignments_sub_dir
-    out_alignments_dir = dataset_dir + "/" + out_alignments_sub_dir
+def generate_instance_alignments(reasoned_ontologies_dir, reference_alignments_dir,
+                                 handcrafted_reference_alignments_dir, out_alignments_dir):
 
     ontology_prefixes_list = get_all_ontology_prefixes()
     all_prefix_pairs = get_all_prefix_pairs()
@@ -332,7 +327,7 @@ def generate_instance_alignments(dataset_dir, data_sub_dir, reference_alignments
     # read all ontologies
     for ontology_prefix in ontology_prefixes_list:
         prefix_to_ontology_dict[ontology_prefix] = Graph()
-        prefix_to_ontology_dict[ontology_prefix].parse(data_directory + "/" + ontology_prefix + ".owl")
+        prefix_to_ontology_dict[ontology_prefix].parse(reasoned_ontologies_dir + "/" + ontology_prefix + ".owl")
 
     # make sure the directory exists
     if not os.path.isdir(out_alignments_dir):
@@ -371,8 +366,7 @@ def generate_instance_alignments(dataset_dir, data_sub_dir, reference_alignments
 
 if __name__ == '__main__':
     generate_instance_alignments(
-        dataset_dir="dataset",
-        data_sub_dir="reasoned_ontologies",
-        reference_alignments_sub_dir="reference_alignments_owl",
-        handcrafted_reference_alignments_sub_dir="hand_picked_property_based_alignments",
-        out_alignments_sub_dir="produced_instance_alignments")
+        reasoned_ontologies_dir="dataset/reasoned_ontologies",
+        reference_alignments_dir="dataset/reference_alignments_owl",
+        handcrafted_reference_alignments_dir="data_preparation/hand_picked_property_based_alignments",
+        out_alignments_dir="dataset/produced_instance_alignments")

@@ -1,7 +1,0 @@
-@prefix ns1: <http://www.w3.org/2002/07/owl#> .
-
-<http://conference#contributes> a ns1:ObjectProperty ;
-    ns1:equivalentProperty <http://sigkdd#submit> .
-
-<http://sigkdd#submit> a ns1:ObjectProperty .
-
