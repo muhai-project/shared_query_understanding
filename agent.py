@@ -1,9 +1,7 @@
 from data_utils import *
 from rdflib import Graph, RDF, OWL
 
-import concepts as fca_structure
 import random
-import string
 
 class Agent:
 	def __init__(self, ID, graph_path, namespace=None):
