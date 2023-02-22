@@ -374,5 +374,5 @@ if __name__ == '__main__':
         dataset_dir="dataset",
         data_sub_dir="reasoned_ontologies",
         reference_alignments_sub_dir="reference_alignments_owl",
-        handcrafted_reference_alignments_sub_dir="hand_picked_property_alignments",
+        handcrafted_reference_alignments_sub_dir="hand_picked_property_based_alignments",
         out_alignments_sub_dir="produced_instance_alignments")
