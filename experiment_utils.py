@@ -16,7 +16,6 @@ def	write_average_query_performance_to_tensorboard(tensorboard_writer, output_di
 
 	return average_values_per_step, other_dictionary_to_append
 
-
 def format_average_query_performance_in_str(av_stats_dict, std_stats_dict=None, is_single_query=False):
 
 	# simply using new variables for "avoiding" visual overload, using all the dictionaries
@@ -34,17 +33,17 @@ def format_average_query_performance_in_str(av_stats_dict, std_stats_dict=None, 
 
 	# Query performance description string starts with how many query experiments where completed successfully (in case of more than one queries)
 	if not is_single_query:
-		output_str = f"Completed: {av_stats_dict['completed']:04.2}, "
+		output_str = f"Alignments utilised (%): {av_stats_dict['completed']:04.2}, "
 	else:
 		output_str = ""
 
 	# Then we report how many experiments resulted to perfect performance and how many reached a deadend.
-	output_str += f"Perf:{av_perfect_score:04.2}, Died: {av_episode_generation_deadend:04.2}, "
+	output_str += f"Perfect:{av_perfect_score:04.2}, Teacher gave up: {av_episode_generation_deadend:04.2}, "
 
 	# finally, we report more detailed performance measures, and we also add their standard deviations in parenthesis, if they are provided
 	if std_stats_dict is None:
-		output_str += f"Pre: {av_precision:04.2}, Rec: {av_recall:04.2}, #Steps: {av_total_steps:06.2}, #Results: {av_query_result_size:07.2}, "
-		output_str += f"T_E_M: {av_teacher_ep_mem:04.2}, T_S_M: {av_teacher_sem_mem:04.2}, St_E_M {av_student_ep_mem:04.2}, St_S_M {av_student_sem_mem:04.2}"
+		output_str += f"Pre: {av_precision:04.2}, Rec: {av_recall:04.2}, #Steps: {av_total_steps:04.2}, #Results: {av_query_result_size:07.2}, "
+		output_str += f"Teach_Ep_Mem: {av_teacher_ep_mem:04.2}, Teach_Work_Mem: {av_teacher_sem_mem:04.2}, Stud_Ep_Mem {av_student_ep_mem:04.2}, Stud_Work_Mem {av_student_sem_mem:04.2}"
 
 	else:
 		std_precision = std_stats_dict["precision"]
@@ -58,9 +57,9 @@ def format_average_query_performance_in_str(av_stats_dict, std_stats_dict=None, 
 		std_student_sem_mem = std_stats_dict["students_sem_mem_size"]
 
 		output_str += f"Pre: {av_precision:04.2} ({std_precision:04.2}), Rec: {av_recall:04.2} ({std_recall:04.2}), "
-		output_str += f"#Steps: {av_total_steps:08.2} ({std_total_steps:08.2}), #Results: {av_query_result_size:07.2} ({std_query_result_size:07.2}), "
-		output_str += f"T_E_M: {av_teacher_ep_mem:04.2} ({std_teacher_ep_mem:04.2}), T_S_M: {av_teacher_sem_mem:04.2} ({std_teacher_sem_mem:04.2}), "
-		output_str += f"St_E_M {av_student_ep_mem:04.2} ({std_student_ep_mem:04.2}), St_S_M {av_student_sem_mem:04.2} ({std_student_sem_mem:04.2})"
+		output_str += f"#Steps: {av_total_steps:08.2} ({std_total_steps:08.2}), #Results: {av_query_result_size:04.2} ({std_query_result_size:04.2}), "
+		output_str += f"Teach_Ep_Mem: {av_teacher_ep_mem:04.2} ({std_teacher_ep_mem:04.2}), Teach_Work_Mem: {av_teacher_sem_mem:04.2} ({std_teacher_sem_mem:04.2}), "
+		output_str += f"Stud_Ep_Mem {av_student_ep_mem:04.2} ({std_student_ep_mem:04.2}), Stud_Work_Mem {av_student_sem_mem:04.2} ({std_student_sem_mem:04.2})"
 
 	return output_str
 

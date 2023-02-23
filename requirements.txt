@@ -1,6 +1,6 @@
 numpy
 tensorboardX
-rdflib
 concepts
+rdflib
 matplotlib
 SPARQLWrapper

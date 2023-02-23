@@ -34,7 +34,6 @@ def teacher_student_one_query_one_interaction_cycle(teacher_agent, student_agent
 	return step+1, precision, recall, query_result_size, episode_generation_deadend
 
 
-
 def teacher_student_one_query_experiment(teacher_agent, student_agent, teacher_policy, student_policy,
 										 teacher_property, student_property, max_steps, eval_every, output_dict_step_wise):
 	'''

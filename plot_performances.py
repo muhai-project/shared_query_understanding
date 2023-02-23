@@ -16,7 +16,6 @@ simple_dataset_legend_2_exp_dir = {
 "Prop-Logic": "experiments/all_ontology_pairs__TP=property-based__SP=logic-based__reps=10__instances=simple__max_steps=100"}
 
 max_steps = 50
-
 steps = [i+1 for i in list(range(max_steps))]
 
 simple_exp_results = dict()

@@ -3,7 +3,6 @@ import xml.etree.ElementTree as ET
 from rdflib import Graph, URIRef, RDF, OWL
 import os
 
-
 original_ontologies_dir = "data_preparation/oa4qa_bundle/data/original"
 reference_alignments_dir = "data_preparation/oa4qa_bundle/data/reference"
 

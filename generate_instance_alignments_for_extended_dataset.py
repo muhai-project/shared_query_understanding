@@ -363,7 +363,6 @@ def generate_instance_alignments(reasoned_ontologies_dir, reference_alignments_d
             for URI_1, URI_2 in produced_alignments:
                 produced_alignments_out_file.write(str(URI_1) + "," + str(URI_2) + "\n")
 
-
 if __name__ == '__main__':
     generate_instance_alignments(
         reasoned_ontologies_dir="dataset/reasoned_ontologies",

@@ -332,7 +332,6 @@ class Agent:
 		:param example: (relevant_object, irrelevant_object)
 		:return: (Boolean) unclear example
 		'''
-
 		relevant_object, irrelevant_object = example
 
 		relevant_object_properties = set(self.object_group_ID_to_object_properties[self.object_to_object_group_ID[relevant_object]])
