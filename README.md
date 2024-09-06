@@ -61,7 +61,7 @@ We need to create more instance alignments across pairs of ontologies in order t
 AAMAS readme
 
 # Acknowledgement: 
-This work was funded by the European MUHAI project (Horizon 2020 research and innovation program) under grant agreement number 951846, the Vrije Universiteit Amsterdam. We thank Frank van Harmelen for continuous support and guidance.
+This work was funded by the European MUHAI project (Horizon 2020 research and innovation program) under grant agreement number 951846, the Vrije Universiteit Amsterdam. We want to thank Frank van Harmelen for his continuous support and guidance.
 # Application domain: 
 Semantc web
 # Citation: 
@@ -111,7 +111,7 @@ The experimental setup allows the development and evaluation of agent policies, 
 # Forks url: 
 
 # Full name: 
-Nikolaos Kondylidis
+
 # Full title: 
 shared_query_understanding
 # Images: 
@@ -155,7 +155,6 @@ Inactive
 # Scripts: Snippets of code contained in the repository
 # Support channels: 
 # Usage examples: 
-Assumptions and considerations recorded by the authors when executing a software component, or examples on how to use it
+
 # Workflows: 
-URL and path to the workflow files present in the repository
 
