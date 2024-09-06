@@ -58,5 +58,104 @@ We need to create more instance alignments across pairs of ontologies in order t
 
     python3 generate_instance_alignments_for_extended_dataset.py
 
-    
+AAMAS readme
+
+# Acknowledgement: 
+This work was funded by the European MUHAI project (Horizon 2020 research and innovation program) under grant agreement number 951846, the Vrije Universiteit Amsterdam. We thank Frank van Harmelen for continuous support and guidance.
+# Application domain: 
+Semantc web
+# Citation: 
+@inproceedings{10.5555/3545946.3598649,
+author = {Kondylidis, Nikolaos and Tiddi, Ilaria and ten Teije, Annette},
+title = {Establishing Shared Query Understanding in an Open Multi-Agent System},
+year = {2023},
+isbn = {9781450394321},
+publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
+address = {Richland, SC},
+booktitle = {Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems},
+pages = {281–289},
+numpages = {9},
+keywords = {collaborative query answering, open multi-agent systems, task-oriented communication establishment},
+location = {London, United Kingdom},
+series = {AAMAS '23}
+}
+# Code of Conduct: 
+
+# Code repository: 
+https://github.com/muhai-project/shared_query_understanding
+# Contact: 
+Nikolaos Kondylidis
+# Contribution guidelines: 
+
+# Contributors: 
+Nikolaos Kondylidis
+# Creation date: 
+22-02-2023
+# Description: 
+This is the code for the paper accepted for publication to AAMAS 2023: "Establishing Shared Query Understanding in an Open Multi-Agent System".
+The experimental setup allows the development and evaluation of agent policies, that attempt to explain a query term to each other, over grounded communication.
+# DockerFile: 
+
+# Documentation: 
+
+# Download URL: 
+
+# DOI: 
+
+# Executable examples: 
+
+# FAQ: 
+
+# Forks count: 
+0
+# Forks url: 
+
+# Full name: 
+Nikolaos Kondylidis
+# Full title: 
+shared_query_understanding
+# Images: 
+
+# Installation instructions: 
+
+# Invocation: 
+
+# Issue tracker: 
+
+# Keywords: 
+
+# License: 
+https://creativecommons.org/licenses/by/4.0/legalcode
+# Logo: 
+
+# Name: 
+
+# Ontologies: 
+
+# Owner: 
+MUHAI Project
+# Owner type: 
+organization
+# Package distribution: 
+
+# Programming languages: 
+Python
+# Related papers: 
+https://arxiv.org/abs/2305.09349, https://dl-acm-org.vu-nl.idm.oclc.org/doi/10.5555/3545946.3598649
+# Releases (GitHub only): 
+
+# Repository Status: 
+Inactive
+# Requirements: 
+
+# Support: 
+
+# Stargazers count: 
+
+# Scripts: Snippets of code contained in the repository
+# Support channels: 
+# Usage examples: 
+Assumptions and considerations recorded by the authors when executing a software component, or examples on how to use it
+# Workflows: 
+URL and path to the workflow files present in the repository
 
