@@ -125,7 +125,7 @@ shared_query_understanding
 # Keywords: 
 
 # License: 
-https://creativecommons.org/licenses/by/4.0/legalcode
+Apache license 2.0
 # Logo: 
 
 # Name: 
