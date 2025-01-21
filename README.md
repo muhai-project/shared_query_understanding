@@ -60,11 +60,11 @@ We need to create more instance alignments across pairs of ontologies in order t
 
 AAMAS readme
 
-# Acknowledgement: 
+# Acknowledgement
 This work was funded by the European MUHAI project (Horizon 2020 research and innovation program) under grant agreement number 951846, the Vrije Universiteit Amsterdam. We want to thank Frank van Harmelen for his continuous support and guidance.
-# Application domain: 
+# Application domain
 Semantc web
-# Citation: 
+# Citation
 @inproceedings{10.5555/3545946.3598649,
 author = {Kondylidis, Nikolaos and Tiddi, Ilaria and ten Teije, Annette},
 title = {Establishing Shared Query Understanding in an Open Multi-Agent System},
@@ -79,82 +79,82 @@ keywords = {collaborative query answering, open multi-agent systems, task-orient
 location = {London, United Kingdom},
 series = {AAMAS '23}
 }
-# Code of Conduct: 
+# Code of Conduct
 
-# Code repository: 
+# Code repository
 https://github.com/muhai-project/shared_query_understanding
-# Contact: 
+# Contact
 Nikolaos Kondylidis
-# Contribution guidelines: 
+# Contribution guidelines
 
-# Contributors: 
+# Contributors
 Nikolaos Kondylidis
-# Creation date: 
+# Creation date
 22-02-2023
-# Description: 
+# Description
 This is the code for the paper accepted for publication to AAMAS 2023: "Establishing Shared Query Understanding in an Open Multi-Agent System".
 The experimental setup allows the development and evaluation of agent policies, that attempt to explain a query term to each other, over grounded communication.
-# DockerFile: 
+# DockerFile
 
-# Documentation: 
+# Documentation
 
-# Download URL: 
+# Download URL
 
-# DOI: 
+# DOI
 
-# Executable examples: 
+# Executable examples
 
-# FAQ: 
+# FAQ
 
-# Forks count: 
+# Forks count
 0
-# Forks url: 
+# Forks url
 
-# Full name: 
+# Full name
 
-# Full title: 
+# Full title
 shared_query_understanding
-# Images: 
+# Images
 
-# Installation instructions: 
+# Installation instructions
 
-# Invocation: 
+# Invocation
 
-# Issue tracker: 
+# Issue tracker
 
-# Keywords: 
+# Keywords
 
-# License: 
+# License
 Apache license 2.0
-# Logo: 
+# Logo
 
-# Name: 
+# Name
 
-# Ontologies: 
+# Ontologies
 
-# Owner: 
+# Owner
 MUHAI Project
-# Owner type: 
+# Owner type
 organization
-# Package distribution: 
+# Package distribution
 
-# Programming languages: 
+# Programming languages
 Python
-# Related papers: 
+# Related papers
 https://arxiv.org/abs/2305.09349, https://dl-acm-org.vu-nl.idm.oclc.org/doi/10.5555/3545946.3598649
-# Releases (GitHub only): 
+# Releases (GitHub only)
 
-# Repository Status: 
+# Repository Status
 Inactive
-# Requirements: 
+# Requirements
 
-# Support: 
+# Support
 
-# Stargazers count: 
+# Stargazers count
 
 # Scripts: Snippets of code contained in the repository
-# Support channels: 
-# Usage examples: 
+# Support channels
+# Usage examples
 
-# Workflows: 
+# Workflows
 
